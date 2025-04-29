@@ -14,7 +14,7 @@ hist_button = st.button('Mostrar histograma de kilometraje')
 if hist_button:
     st.write("""
     ### Histograma del Odómetro
-    Este gráfico muestra la distribución de el kilometraje de los vehículos
+    Este histograma muestra la distribución de el kilometraje de los vehículos
     """)
     fig_hist = px.histogram(
         car_data,
